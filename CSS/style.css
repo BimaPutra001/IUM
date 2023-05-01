@@ -9,12 +9,14 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 .wrapper1 {
     width: 1200px;
     margin: auto;
     position: relative;
+
 }
 
 .wrapper {
@@ -24,6 +26,8 @@ body {
     margin-top: 30px;
     background: #f7f7f7;
     border-radius: 5%;
+
+    box-shadow: 0 10px 15px #f7f7f7;
 }
 
 .logo a {
@@ -149,6 +153,8 @@ img {
     margin-top: 5px;
     background: #f7f7f7;
     border-radius: 5%;
+
+    box-shadow: 0 10px 15px #f7f7f7;
 }
 
 .wrapper2 i{
@@ -236,6 +242,8 @@ img {
     background: #f7f7f7;
     border-radius: 5%;
     text-align: center;
+
+    box-shadow: 0 10px 15px #f7f7f7;
 }
 
 h3 {
@@ -281,6 +289,7 @@ h3 {
     flex-wrap: wrap;
     margin: auto;
     margin-bottom: 100;
+
 }
 
 .footer-section {
