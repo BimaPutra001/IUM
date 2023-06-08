@@ -352,95 +352,6 @@ p {
 }
 
 
-@media screen and (max-width: 991.98px) {
-    .wrapper {
-        width: 90%;
-    }
-    .wrapper1 {
-        width: 90%;
-    }
-    .wrapper2 {
-        width: 90%;
-    }
-
-    .tengah {
-        width: 90%;
-    }
-
-    .footer {
-        width: 90%;
-    }
-
-    .wrapper3 {
-        width: 90%;
-        display: block;
-    }
-    .faq {
-        width: 90%;
-    }
-    .rules {
-        width: 90%;
-    }
-
-    .logo a {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    nav .menu {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav .menu ul {
-        text-align: center;
-        margin: auto;
-        line-height: 60px;
-    }
-
-    nav .menu ul li {
-        display: inline-block;
-        float: none;
-    }
-    
-    section {
-        display: block;
-        text-align: center;
-    }
-
-    .wrapper img {
-        display: block;
-        width:  100%;
-        height: auto;
-    }
-
-    .wrapper1 img {
-        display: block;
-        width:  100%;
-        height: auto;
-    }
-
-    .tengah img {
-        display: block;
-        width:  100%;
-        height: auto;
-    }
-    
-    .tenlist img{
-        width: 50%;
-    }
-
-    .wrapper3 iframe{
-        display: block;
-        width:  100%;
-        height: auto;
-    }
-
-
-
-
-}
 
 
 
@@ -486,7 +397,7 @@ p {
 }
 
 .denah {
-    padding-bottom: 40px
+    padding-bottom: 10px
 }
 
 .penjelasan-denah {
@@ -496,9 +407,8 @@ p {
 }
 
 #denah1 {
-    height: 500px;
-    width: 500px;
-    margin-left: 5px;
+    max-width: 100%;
+    margin-left: 20px;
     margin-top: 20px;
 }
 
@@ -624,3 +534,142 @@ p {
 
 
 
+  @media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .wrapper p {
+        text-align: justify;
+    }
+
+    .wrapper1 {
+        width: 90%;
+    }
+
+    .wrapper1 .logo {
+        width: 45%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wrapper2 {
+        width: 90%;
+    }
+
+    .tengah {
+        width: 90%;
+    }
+
+    #contact {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-section {
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+
+    .footer-section p {
+        padding-right: 35px;
+    }
+
+    .wrapper3 {
+        width: 90%;
+        display: block;
+    }
+    .faq {
+        width: 90%;
+        margin: auto;
+    }
+    .rules {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    .wrapper .faq ol li {
+        text-align: justify
+    }
+    
+    section {
+        display: block;
+        text-align: center;
+    }
+
+    .wrapper img {
+        display: block;
+        width:  100%;
+        height: auto;
+    }
+
+    .wrapper1 img {
+        display: block;
+        width:  100%;
+        height: auto;
+    }
+
+    .tengah img {
+        display: block;
+        width:  100%;
+        height: auto;
+    }
+    
+    .tenlist img{
+        width: 50%;
+    }
+
+    .wrapper3 iframe{
+        display: block;
+        width:  100%;
+        height: auto;
+    }
+
+    .denah {
+        margin: auto;
+    }
+
+    #denah1 {
+        display: block;
+    }
+
+    .row {
+        display: block;
+        width: 100%;
+    }
+
+
+}

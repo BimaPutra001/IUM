@@ -25,10 +25,12 @@ body {
     position: relative;
     margin-top: 30px;
     background: #f7f7f7;
-    border-radius: 5%;
+    border-radius: 2.5%;
 
     box-shadow: 0 10px 15px #f7f7f7;
 }
+
+
 
 .logo a {
     font-size: 35px;
@@ -36,7 +38,17 @@ body {
     float: left;
     font-family: 'Open Sans', sans-serif;
     color: #678983;
+    text-decoration: underline;
     
+}
+
+.logo img {
+    padding-bottom: 0%;
+}
+
+.logo img {
+    width: 195px;
+    height: 70px;
 }
 
 .menu {
@@ -48,7 +60,7 @@ nav {
     width: 100%;
     margin: auto;
     display: flex;
-    line-height: 80px;
+    line-height: 30px;
     position: sticky;
     top: 0;
     background: #FFFFFF;
@@ -58,7 +70,7 @@ nav {
 
 nav ul {
     list-style: none;
-    margin: 0;
+    margin: 25px;
     padding: 0;
     overflow: hidden;
 }
@@ -108,7 +120,7 @@ h2 {
 
 a.tbl {
     background: #F0E9D2;
-    border-radius: 5px;
+    border-radius: 2.5px;
     margin-top: 20px;
     padding: 8px 8px 8px 8px;
     color: white;
@@ -124,7 +136,7 @@ a.tbl:hover {
 
 a.tbl-1 {
     background: #678983;
-    border-radius: 5px;
+    border-radius: 2.5px;
     margin-top: 20px;
     padding: 8px 8px 8px 8px;
     color: white;
@@ -143,7 +155,7 @@ a.tbl-1:hover {
 }
 
 img {
-    border-radius: 5%;
+    border-radius: 2.5%;
 }
 
 .wrapper2 {
@@ -152,7 +164,7 @@ img {
     position: relative;
     margin-top: 5px;
     background: #f7f7f7;
-    border-radius: 5%;
+    border-radius: 2.5%;
 
     box-shadow: 0 10px 15px #f7f7f7;
 }
@@ -240,7 +252,7 @@ img {
     margin: auto;
     margin-top: 5px;
     background: #f7f7f7;
-    border-radius: 5%;
+    border-radius: 2.5%;
     text-align: center;
 
     box-shadow: 0 10px 15px #f7f7f7;
@@ -317,20 +329,61 @@ h3 {
 @media screen and (max-width: 991.98px) {
     .wrapper {
         width: 90%;
+        padding: 0px 0px 0px 0px;
     }
+
+    .wrapper .deskripsi {
+        text-align: left;
+    }
+
+    .wrapper p {
+        text-align: justify;
+    }
+
     .wrapper1 {
         width: 90%;
+        
     }
+
+    .wrapper1 .logo {
+        width: 45%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .wrapper2 {
         width: 90%;
+        
     }
 
     .tengah {
         width: 90%;
     }
 
+    #contact {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .footer {
-        width: 90%;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-section {
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+    }
+
+    .footer-section p {
+        padding-right: 35px;
     }
 
     .logo a {
@@ -371,15 +424,18 @@ h3 {
         height: auto;
     }
 
-    .tengah img {
-        display: block;
-        width:  100%;
-        height: auto;
-    }
-    
-    .tenlist img{
-        width: 50%;
+    .tenant p {
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
     }
 
+    .tenant img {
+        display: block;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
 
 }

@@ -351,6 +351,14 @@ p {
     .wrapper1 {
         width: 90%;
     }
+
+    .wrapper1 .logo {
+      width: 45%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .wrapper2 {
         width: 90%;
     }
@@ -359,9 +367,30 @@ p {
         width: 90%;
     }
 
-    .footer {
-        width: 90%;
-    }
+    #contact {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .footer {
+      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .footer-section {
+      width: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+  }
+
+  .footer-section p {
+      padding-right: 35px;
+  }
 
     .wrapper3 {
         width: 90%;
