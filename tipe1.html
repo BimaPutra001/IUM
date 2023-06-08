@@ -19,7 +19,7 @@
                 <ul>
                     <li><a href='index.html'>Home</a> </li>
                     <li><a href='home.html'>About</a> </li>
-                    <li><a href='booking.html'>Booking</a></li>
+                    <li><a href='booking.html'><b>Booking<b></b></a></li>
                     <li><a href='faq.html'>FAQ</a></li>
                 </ul>
             </div>
@@ -60,22 +60,27 @@
                     </div>
                     <div class="input-box">
                         <label for="KONTAK_WALI" class="form-label">Kontak Wali</label>
-                        <input type="number" id="KONTAK" name="KONTAK" class="form-control"
-                            placeholder="Masukan nomor telepon" required>
+                        <input type="number" id="KONTAK_WALI" name="KONTAK_WALI" class="form-control"
+                            placeholder="Masukan nomor telepon wali" required>
                     </div>
                     <div class="input-box">
                         <label for="TIPE_KAMAR" class="form-label">Tipe Kamar </label>
                         <select type="text" id="TIPE_KAMAR" name="TIPE_KAMAR" class="form-control"
                             placeholder="Pilih tipe kamar" required>
                             <option>--Pilih Tipe Kamar--</option>
-                            <option>1</option>
-                            <option>2</option>
+                            <option>A</option>
+                            <option>B</option>
                         </select>
                     </div>
                     <div class="input-box">
                         <label for="TANGGAL_LAHIR" class="form-label">Tanggal Survey</label>
                         <input type="date" id="TANGGAL_LAHIR" name="TANGGAL_LAHIR" class="form-control"
-                            placeholder="Masukan tanggal lahir " required>
+                            placeholder="Masukan tanggal lahir" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="KETERANGAN" class="form-label">Keterangan</label>
+                        <input type="text" id="KETERANGAN" name="KETERANGAN" class="form-control"
+                            placeholder="Masukan keterangan" required>
                     </div>
                     <div class="button">
                         <input type="submit" value="    Registrasi    ">
@@ -95,8 +100,8 @@
         form.addEventListener('submit', e => {
             e.preventDefault()
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => $("#form_alerts").html("<div class='alert alert-success'>Data berhasil dikirim.</div>"))
-                .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Data gagal terkirim!.</div>"))
+                .then(response => $("#form_alerts").html("<div class='alert alert-success'>Form request berhasil dibuat! Admin akan menghubungi kontak dalam waktu 1x24 jam untuk konfirmasi!.</div>"))
+                .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Form request gagal dibuat!.</div>"))
             form.reset();
         })
     </script>
@@ -117,7 +122,16 @@
 
             <div class="footer-section">
                 <h3>Contact</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quia.</p>
+                <p> 
+                    <i class="fa-solid fa-phone"></i>
+                    082216918620
+                <br>
+                <i class="fa-solid fa-envelope" style="color: #000000;"></i>
+                wismaannafi1@gmail.com
+                <br>
+                <i class="fa-solid fa-location-dot"></i>
+                <p1> Jl. H. Umar, Citeureup, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257</p1>
+                </p>
             </div>
         </div>
     </div>
